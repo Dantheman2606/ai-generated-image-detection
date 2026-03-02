@@ -1,0 +1,28 @@
+{
+    "description": {
+        "min_width": "Smallest image width in pixels.",
+        "max_width": "Largest image width in pixels.",
+        "mean_width": "Average image width.",
+        "median_width": "Median image width.",
+        "min_height": "Smallest image height in pixels.",
+        "max_height": "Largest image height in pixels.",
+        "mean_height": "Average image height.",
+        "median_height": "Median image height.",
+        "total_images_processed": "Number of successfully read images.",
+        "aspect_ratio_mean": "Average width/height ratio.",
+        "aspect_ratio_std": "Standard deviation of width/height ratio (variation in shape)."
+    },
+    "stats": {
+        "min_width": 256,
+        "max_width": 4096,
+        "mean_width": 1137.6048,
+        "median_width": 1024.0,
+        "min_height": 256,
+        "max_height": 4096,
+        "mean_height": 1110.23616,
+        "median_height": 992.0,
+        "total_images_processed": 50000,
+        "aspect_ratio_mean": 1.0955301043967125,
+        "aspect_ratio_std": 0.3320588318676566
+    }
+}

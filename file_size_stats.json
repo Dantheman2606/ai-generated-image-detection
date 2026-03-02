@@ -1,0 +1,36 @@
+{
+    "description": {
+        "min_kb": "Smallest file size in kilobytes.",
+        "max_kb": "Largest file size in kilobytes.",
+        "mean_kb": "Average file size.",
+        "median_kb": "Median file size.",
+        "std_kb": "Standard deviation of file sizes (spread).",
+        "class_stats": "Statistics separated by class label (e.g., real vs AI)."
+    },
+    "overall_stats": {
+        "min_kb": 2.6123046875,
+        "max_kb": 7131.380859375,
+        "mean_kb": 416.076080078125,
+        "median_kb": 203.30810546875,
+        "std_kb": 651.9230708180761,
+        "total_images_processed": 50000
+    },
+    "per_class_stats": {
+        "0": {
+            "min_kb": 17.103515625,
+            "max_kb": 7131.380859375,
+            "mean_kb": 787.2892365021271,
+            "median_kb": 326.06591796875,
+            "std_kb": 955.1470797744081,
+            "count": 17982
+        },
+        "1": {
+            "min_kb": 2.6123046875,
+            "max_kb": 3061.103515625,
+            "mean_kb": 207.59475773393092,
+            "median_kb": 165.18212890625,
+            "std_kb": 174.55300990193615,
+            "count": 32018
+        }
+    }
+}

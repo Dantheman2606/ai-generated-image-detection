@@ -1,0 +1,7 @@
+docker run -it \
+  --name ai-gen-detect-dev \
+  --gpus all \
+  -p 8888:8888 \
+  -v $(pwd):/workspace \
+  -v /mnt/c:/mnt/c \
+  ai-gen-detect
