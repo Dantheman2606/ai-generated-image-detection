@@ -1,0 +1,128 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# ML Models & Checkpoints
+# =========================
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+*.pb
+saved_model/
+*.keras
+
+# ONNX
+*.onnx
+
+# Scikit-learn
+*.joblib
+*.pkl
+*.pickle
+
+# XGBoost / LightGBM / CatBoost
+*.model
+*.cbm
+
+# Checkpoints directories
+checkpoints/
+ckpts/
+models/
+weights/
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Large Data Files
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+*.hdf
+*.hdf5
+*.npz
+*.npy
+
+# Images / audio datasets
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.wav
+*.mp3
+*.flac
+*.mp4
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+tensorboard/
+tb_logs/
+events.out.tfevents.*
+
+# =========================
+# Experiment Tracking
+# =========================
+mlruns/
+wandb/
+comet.ml/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+.cache/
+*.tmp
+*.bak
