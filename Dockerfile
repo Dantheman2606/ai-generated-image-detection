@@ -32,4 +32,3 @@ RUN pip install --no-cache-dir \
 WORKDIR /workspace
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
-jupyter lab -ip=0.0.0.0 --no-browser --allow-root
