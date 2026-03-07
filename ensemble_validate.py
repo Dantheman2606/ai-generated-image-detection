@@ -283,28 +283,40 @@ class EnsembleDataset(Dataset):
         return rgb_effnet, rgb_f3net, fft_f3net, rgb_dino, label
 
 
-# ── Randomly sample ~3000 images ──────────────────────────────────────────────
-if not os.path.exists(DATASET_PATH):
-    raise FileNotFoundError(f"Dataset not found at:\n  {DATASET_PATH}")
+class InferenceDataset(Dataset):
+    """
+    Images-only dataset for competition submission.
+    Lists all .jpg / .jpeg / .png files in a directory; no labels required.
 
-all_labels  = pd.read_csv(os.path.join(DATASET_PATH, "labels.csv"))
-all_indices = list(range(len(all_labels)))
-random.shuffle(all_indices)
-sample_indices = all_indices[:SAMPLE_SIZE]
+    Returns
+    -------
+    rgb_effnet : (3, 320, 320)
+    rgb_f3net  : (3, 256, 256)
+    fft_f3net  : (1, 256, 256)
+    rgb_dino   : (3, 224, 224)
+    filename   : str  (bare file name, e.g. "abc123.jpg")
+    """
 
-dataset = EnsembleDataset(DATASET_PATH, indices=sample_indices)
-loader  = DataLoader(
-    dataset,
-    batch_size=BATCH_SIZE,
-    shuffle=False,
-    num_workers=4,
-    pin_memory=True,
-    prefetch_factor=2,
-    persistent_workers=True,
-)
+    def __init__(self, img_dir: str):
+        self.img_dir   = img_dir
+        self.filenames = sorted(
+            f for f in os.listdir(img_dir)
+            if f.lower().endswith((".jpg", ".jpeg", ".png"))
+        )
 
-print(f"\nDataset : {len(dataset)} / {len(all_labels)} total images sampled")
-print(f"Batches : {len(loader)}")
+    def __len__(self) -> int:
+        return len(self.filenames)
+
+    def __getitem__(self, idx: int):
+        fname   = self.filenames[idx]
+        pil_img = Image.open(os.path.join(self.img_dir, fname)).convert("RGB")
+
+        rgb_effnet = _effnet_transform(pil_img)
+        rgb_f3net  = _f3net_rgb_transform(pil_img)
+        fft_f3net  = _fft_magnitude(pil_img, size=256)
+        rgb_dino   = _dino_transform(pil_img)
+
+        return rgb_effnet, rgb_f3net, fft_f3net, rgb_dino, fname
 
 # ══════════════════════════════════════════════════════════════════════════════
 # 5. Prediction Functions  (single-image convenience API)
@@ -344,6 +356,30 @@ def predict_dino(image: Image.Image) -> float:
 # 6. Ensemble Validation
 # ══════════════════════════════════════════════════════════════════════════════
 def run_ensemble_validation() -> None:
+    if not os.path.exists(DATASET_PATH):
+        print(f"Training dataset not found at:\n  {DATASET_PATH}")
+        print("Skipping validation run.")
+        return
+
+    all_labels  = pd.read_csv(os.path.join(DATASET_PATH, "labels.csv"))
+    all_indices = list(range(len(all_labels)))
+    random.shuffle(all_indices)
+    sample_indices = all_indices[:SAMPLE_SIZE]
+
+    dataset = EnsembleDataset(DATASET_PATH, indices=sample_indices)
+    loader  = DataLoader(
+        dataset,
+        batch_size=BATCH_SIZE,
+        shuffle=False,
+        num_workers=4,
+        pin_memory=True,
+        prefetch_factor=2,
+        persistent_workers=True,
+    )
+
+    print(f"\nDataset : {len(dataset)} / {len(all_labels)} total images sampled")
+    print(f"Batches : {len(loader)}")
+
     all_ensemble_scores: list[float] = []
     all_effnet_scores:   list[float] = []
     all_f3net_scores:    list[float] = []
@@ -389,5 +425,57 @@ def run_ensemble_validation() -> None:
     print("=" * 56)
 
 
+def run_submission(img_dir: str, output_csv: str) -> None:
+    """Run ensemble inference on every image in *img_dir* and write a submission CSV."""
+    if not os.path.isdir(img_dir):
+        raise FileNotFoundError(f"Image directory not found:\n  {img_dir}")
+
+    dataset = InferenceDataset(img_dir)
+    loader  = DataLoader(
+        dataset,
+        batch_size=BATCH_SIZE,
+        shuffle=False,
+        num_workers=4,
+        pin_memory=True,
+        prefetch_factor=2,
+        persistent_workers=True,
+    )
+
+    print(f"\nSubmission : {img_dir}")
+    print(f"  Images   : {len(dataset)}")
+
+    image_names: list[str]   = []
+    scores:      list[float] = []
+
+    for rgb_effnet, rgb_f3net, fft_f3net, rgb_dino, fnames in tqdm(
+        loader, desc=f"Inference ({os.path.basename(img_dir)})"
+    ):
+        rgb_effnet = rgb_effnet.to(DEVICE, non_blocking=True)
+        rgb_f3net  = rgb_f3net.to(DEVICE,  non_blocking=True)
+        fft_f3net  = fft_f3net.to(DEVICE,  non_blocking=True)
+        rgb_dino   = rgb_dino.to(DEVICE,   non_blocking=True)
+
+        with torch.no_grad(), torch.amp.autocast("cuda", enabled=_AMP_ENABLED):
+            effnet_score = torch.sigmoid(effnet_model(rgb_effnet)).squeeze(1)
+            f3net_score  = torch.sigmoid(f3net_model(rgb_f3net, fft_f3net)).squeeze(1)
+            dino_score   = torch.sigmoid(dino_model(rgb_dino)).squeeze(1)
+
+        final_score = 0.5 * effnet_score + 0.3 * f3net_score + 0.2 * dino_score
+
+        image_names.extend(fnames)
+        scores.extend(final_score.cpu().tolist())
+
+    os.makedirs(os.path.dirname(os.path.abspath(output_csv)), exist_ok=True)
+    pd.DataFrame({"image_name": image_names, "score": scores}).to_csv(
+        output_csv, index=False
+    )
+    print(f"  Saved  → {output_csv}")
+
+
 if __name__ == "__main__":
-    run_ensemble_validation()
+    _VAL_DIR  = os.path.join(_ROOT, "ntire_val_dataset", "val_images")
+    _HARD_DIR = os.path.join(_ROOT, "ntire_val_dataset", "val_images_hard")
+    _OUT_DIR  = os.path.join(_ROOT, "outputs")
+
+    run_submission(_VAL_DIR,  os.path.join(_OUT_DIR, "submission.csv"))
+    run_submission(_HARD_DIR, os.path.join(_OUT_DIR, "submission_hard.csv"))

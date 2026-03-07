@@ -13,6 +13,11 @@ eggs/
 *.egg
 pip-wheel-metadata/
 
+training/baseline/NOTEBOOK_DOCUMENTATION.md
+*.zip
+*.md
+ntire_val_dataset
+
 # Virtual environments
 .env
 .venv
