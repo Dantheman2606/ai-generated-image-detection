@@ -1,7 +1,10 @@
 docker run -it \
   --name ai-gen-detect-dev \
   --gpus all \
+  --ipc=host \
+  --ulimit memlock=-1 \
+  --ulimit stack=67108864 \
   -p 8888:8888 \
-  -v $(pwd):/workspace \
+  -v $HOME:/workspace \
   -v /mnt/c:/mnt/c \
   ai-gen-detect
