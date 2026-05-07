@@ -1,0 +1,3014 @@
+{
+  "metadata": {
+    "total_images": 500,
+    "models": [
+      "efficientnet",
+      "dinov2",
+      "f3net"
+    ],
+    "ensemble_method": "average"
+  },
+  "predictions": [
+    {
+      "image": "00088a1936787193a8a9.jpg",
+      "ensemble_probability": 0.01788713037967682,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.01788713037967682
+    },
+    {
+      "image": "001d8707c0c4f8566080.jpg",
+      "ensemble_probability": 0.06521814316511154,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.06521814316511154
+    },
+    {
+      "image": "00255cafa657d683d00d.jpg",
+      "ensemble_probability": 0.9945781230926514,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9945781230926514
+    },
+    {
+      "image": "002b042ee1dddceef701.jpg",
+      "ensemble_probability": 0.9248666763305664,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9248666763305664
+    },
+    {
+      "image": "002d7df53e3ae55af5ae.jpg",
+      "ensemble_probability": 0.9367677569389343,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9367677569389343
+    },
+    {
+      "image": "003476828627f12e0a2a.jpg",
+      "ensemble_probability": 0.9997749924659729,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997749924659729
+    },
+    {
+      "image": "004d45b0876874ca967a.jpg",
+      "ensemble_probability": 0.9586785435676575,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9586785435676575
+    },
+    {
+      "image": "0051af585eeba83a4565.jpg",
+      "ensemble_probability": 0.0015277701895684004,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0015277701895684004
+    },
+    {
+      "image": "0053097bfa6806001f93.jpg",
+      "ensemble_probability": 0.9788353443145752,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9788353443145752
+    },
+    {
+      "image": "0053fab2dacd43faf202.jpg",
+      "ensemble_probability": 0.9998970031738281,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998970031738281
+    },
+    {
+      "image": "00577bb59af4d1b7dd1b.jpg",
+      "ensemble_probability": 0.9886147975921631,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9886147975921631
+    },
+    {
+      "image": "0058850791d68b8c4220.jpg",
+      "ensemble_probability": 0.957673966884613,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.957673966884613
+    },
+    {
+      "image": "005d90238b24581ee9fa.jpg",
+      "ensemble_probability": 0.9525970816612244,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9525970816612244
+    },
+    {
+      "image": "007af8eedf32c3e596ed.jpg",
+      "ensemble_probability": 0.9280194044113159,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9280194044113159
+    },
+    {
+      "image": "007ee0816386399ce80d.jpg",
+      "ensemble_probability": 0.9796140193939209,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9796140193939209
+    },
+    {
+      "image": "008de8f69737c4e41856.jpg",
+      "ensemble_probability": 0.0013762390008196235,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0013762390008196235
+    },
+    {
+      "image": "00933b3c1bd5ea53f1bb.jpg",
+      "ensemble_probability": 0.9009173512458801,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9009173512458801
+    },
+    {
+      "image": "0099c4ef6e4706f5aacd.jpg",
+      "ensemble_probability": 0.23350340127944946,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.23350340127944946
+    },
+    {
+      "image": "00ab9728779a8d4f130d.jpg",
+      "ensemble_probability": 0.9945883750915527,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9945883750915527
+    },
+    {
+      "image": "00b0954123a9e8b0a81d.jpg",
+      "ensemble_probability": 0.9594825506210327,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9594825506210327
+    },
+    {
+      "image": "00b0e5eb68cdd8801ee9.jpg",
+      "ensemble_probability": 0.8254111409187317,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8254111409187317
+    },
+    {
+      "image": "00b6900bbd5201a8cff0.jpg",
+      "ensemble_probability": 0.999422550201416,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.999422550201416
+    },
+    {
+      "image": "00b813540714e00a8bd8.jpg",
+      "ensemble_probability": 0.07763656973838806,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.07763656973838806
+    },
+    {
+      "image": "00b9a6710e39452be11c.jpg",
+      "ensemble_probability": 0.8705064058303833,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8705064058303833
+    },
+    {
+      "image": "00bd109540647a805f2b.jpg",
+      "ensemble_probability": 0.9984649419784546,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9984649419784546
+    },
+    {
+      "image": "00bd31407aee0accf479.jpg",
+      "ensemble_probability": 0.6818996667861938,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6818996667861938
+    },
+    {
+      "image": "00c23368adb816c7bc5c.jpg",
+      "ensemble_probability": 0.0363386906683445,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0363386906683445
+    },
+    {
+      "image": "00c865d15aa1615acf5b.jpg",
+      "ensemble_probability": 0.13483643531799316,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.13483643531799316
+    },
+    {
+      "image": "00c92edc6a159dd40ce6.jpg",
+      "ensemble_probability": 0.9997394680976868,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997394680976868
+    },
+    {
+      "image": "00c9c281a7e90a32ab90.jpg",
+      "ensemble_probability": 0.2960546016693115,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.2960546016693115
+    },
+    {
+      "image": "00cb85b78b80aed1ca6e.jpg",
+      "ensemble_probability": 0.3904213011264801,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3904213011264801
+    },
+    {
+      "image": "00cd18010db15341da39.jpg",
+      "ensemble_probability": 0.937442421913147,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.937442421913147
+    },
+    {
+      "image": "00d7724e875e4d8dc003.jpg",
+      "ensemble_probability": 0.9619705080986023,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9619705080986023
+    },
+    {
+      "image": "00daecfaf5940bad2839.jpg",
+      "ensemble_probability": 0.7068049907684326,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7068049907684326
+    },
+    {
+      "image": "00e50be498686a2b3c0e.jpg",
+      "ensemble_probability": 0.03802451118826866,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.03802451118826866
+    },
+    {
+      "image": "00ed3403832e5aa58dae.jpg",
+      "ensemble_probability": 0.6580683588981628,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6580683588981628
+    },
+    {
+      "image": "00f2f50086841aebfdda.jpg",
+      "ensemble_probability": 0.05823700502514839,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.05823700502514839
+    },
+    {
+      "image": "00f74aa2f76e588655e5.jpg",
+      "ensemble_probability": 0.990736186504364,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.990736186504364
+    },
+    {
+      "image": "00f94b43273d22812875.jpg",
+      "ensemble_probability": 0.9957685470581055,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9957685470581055
+    },
+    {
+      "image": "00fa993ff31ab910ec54.jpg",
+      "ensemble_probability": 0.994314968585968,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.994314968585968
+    },
+    {
+      "image": "00fb3abe17889b7b7b14.jpg",
+      "ensemble_probability": 0.9998012185096741,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998012185096741
+    },
+    {
+      "image": "0102a34cb40cc75d5d4d.jpg",
+      "ensemble_probability": 0.9955590963363647,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9955590963363647
+    },
+    {
+      "image": "010d5eb8697561c8165a.jpg",
+      "ensemble_probability": 0.9839597344398499,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9839597344398499
+    },
+    {
+      "image": "01306abd82281083cab7.jpg",
+      "ensemble_probability": 0.37667378783226013,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.37667378783226013
+    },
+    {
+      "image": "0136b15e4a7aeb37e57d.jpg",
+      "ensemble_probability": 0.722159743309021,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.722159743309021
+    },
+    {
+      "image": "0136dbad1bae4915c56b.jpg",
+      "ensemble_probability": 0.10722711682319641,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.10722711682319641
+    },
+    {
+      "image": "013d485d4711078deca4.jpg",
+      "ensemble_probability": 0.9998118281364441,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998118281364441
+    },
+    {
+      "image": "01467f0054d2534b632a.jpg",
+      "ensemble_probability": 0.9997265934944153,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997265934944153
+    },
+    {
+      "image": "01519e04c6652aa114b1.jpg",
+      "ensemble_probability": 0.9849672913551331,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9849672913551331
+    },
+    {
+      "image": "015ffaa361cccc7b11d8.jpg",
+      "ensemble_probability": 0.9997993111610413,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997993111610413
+    },
+    {
+      "image": "01659780abf5e41b9d65.jpg",
+      "ensemble_probability": 0.00039829546585679054,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.00039829546585679054
+    },
+    {
+      "image": "01662ae133d17d400b84.jpg",
+      "ensemble_probability": 0.9935280680656433,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9935280680656433
+    },
+    {
+      "image": "01824f928cb3daab6b0e.jpg",
+      "ensemble_probability": 0.99272620677948,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.99272620677948
+    },
+    {
+      "image": "0198e7b3981079e967d0.jpg",
+      "ensemble_probability": 0.9231785535812378,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9231785535812378
+    },
+    {
+      "image": "01a3f7bfdb8e024fcf02.jpg",
+      "ensemble_probability": 0.9999997615814209,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999997615814209
+    },
+    {
+      "image": "01a788604308bdca2e5f.jpg",
+      "ensemble_probability": 0.6484052538871765,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6484052538871765
+    },
+    {
+      "image": "01ab19dbe9928b9f1406.jpg",
+      "ensemble_probability": 0.6456869840621948,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6456869840621948
+    },
+    {
+      "image": "01aefec5514d64a79d7f.jpg",
+      "ensemble_probability": 0.1452595293521881,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.1452595293521881
+    },
+    {
+      "image": "01b85efc776659abbb9f.jpg",
+      "ensemble_probability": 0.7628457546234131,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7628457546234131
+    },
+    {
+      "image": "01bb3c47d48a6c3547ee.jpg",
+      "ensemble_probability": 0.6010667085647583,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6010667085647583
+    },
+    {
+      "image": "01bbf015c19e8577ff62.jpg",
+      "ensemble_probability": 0.14023984968662262,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.14023984968662262
+    },
+    {
+      "image": "01beff5110b05cf5a18b.jpg",
+      "ensemble_probability": 0.9491746425628662,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9491746425628662
+    },
+    {
+      "image": "01d6a36b6b2f7113df43.jpg",
+      "ensemble_probability": 0.845335841178894,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.845335841178894
+    },
+    {
+      "image": "01e79b8209d58d48db74.jpg",
+      "ensemble_probability": 0.9991080164909363,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9991080164909363
+    },
+    {
+      "image": "01e8699b28532fa55d5a.jpg",
+      "ensemble_probability": 0.2613583207130432,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.2613583207130432
+    },
+    {
+      "image": "01fd152d0d132b174d21.jpg",
+      "ensemble_probability": 0.9786139130592346,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9786139130592346
+    },
+    {
+      "image": "0202055678a44bc96fe8.jpg",
+      "ensemble_probability": 0.9998369216918945,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998369216918945
+    },
+    {
+      "image": "021be255b3eea5fcc9f0.jpg",
+      "ensemble_probability": 0.06750944256782532,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.06750944256782532
+    },
+    {
+      "image": "021d435ced6fab085779.jpg",
+      "ensemble_probability": 0.9993786811828613,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9993786811828613
+    },
+    {
+      "image": "021e8b885e9b263694d5.jpg",
+      "ensemble_probability": 0.34711748361587524,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.34711748361587524
+    },
+    {
+      "image": "021f122736ced2c61831.jpg",
+      "ensemble_probability": 0.8606642484664917,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8606642484664917
+    },
+    {
+      "image": "0220f968391725ce8cbb.jpg",
+      "ensemble_probability": 0.35784921050071716,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.35784921050071716
+    },
+    {
+      "image": "02245ef083c93f75fd70.jpg",
+      "ensemble_probability": 0.0005974916857667267,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0005974916857667267
+    },
+    {
+      "image": "0241e0f891dfb1cac567.jpg",
+      "ensemble_probability": 0.9818982481956482,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9818982481956482
+    },
+    {
+      "image": "024934c1cf31718e760b.jpg",
+      "ensemble_probability": 0.5198622941970825,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5198622941970825
+    },
+    {
+      "image": "0251bafdb6488ee6bda2.jpg",
+      "ensemble_probability": 0.0042860363610088825,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0042860363610088825
+    },
+    {
+      "image": "02557639c0064307f24a.jpg",
+      "ensemble_probability": 0.09233351796865463,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.09233351796865463
+    },
+    {
+      "image": "02581d5addc1f416dd32.jpg",
+      "ensemble_probability": 0.9720993638038635,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9720993638038635
+    },
+    {
+      "image": "025ca81d2d6e492f9635.jpg",
+      "ensemble_probability": 0.9995705485343933,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9995705485343933
+    },
+    {
+      "image": "0263fc176b2e3fd8eceb.jpg",
+      "ensemble_probability": 0.021302396431565285,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.021302396431565285
+    },
+    {
+      "image": "0264757da51096befe7d.jpg",
+      "ensemble_probability": 0.9973360896110535,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9973360896110535
+    },
+    {
+      "image": "026cd9338f11b51211b0.jpg",
+      "ensemble_probability": 0.9937224984169006,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9937224984169006
+    },
+    {
+      "image": "027d862211464e4c54d7.jpg",
+      "ensemble_probability": 0.00494112865999341,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.00494112865999341
+    },
+    {
+      "image": "02807fcafe5b8db721bb.jpg",
+      "ensemble_probability": 0.8825433254241943,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8825433254241943
+    },
+    {
+      "image": "0281030e8c24f864dd0d.jpg",
+      "ensemble_probability": 0.003918317146599293,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.003918317146599293
+    },
+    {
+      "image": "028260b8f24292aa8eb6.jpg",
+      "ensemble_probability": 0.35872822999954224,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.35872822999954224
+    },
+    {
+      "image": "0282e9967bb734621dea.jpg",
+      "ensemble_probability": 0.983772337436676,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.983772337436676
+    },
+    {
+      "image": "028c7d918d1771633d00.jpg",
+      "ensemble_probability": 0.040802404284477234,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.040802404284477234
+    },
+    {
+      "image": "029099d1105feb64db8b.jpg",
+      "ensemble_probability": 0.7390106320381165,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7390106320381165
+    },
+    {
+      "image": "02a10fde4f9b6bf43bac.jpg",
+      "ensemble_probability": 0.0015245953109115362,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0015245953109115362
+    },
+    {
+      "image": "02ab959b4d4d297069b4.jpg",
+      "ensemble_probability": 0.172223761677742,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.172223761677742
+    },
+    {
+      "image": "02acf428bc0e59f07481.jpg",
+      "ensemble_probability": 0.9999392032623291,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999392032623291
+    },
+    {
+      "image": "02b1d196a6aec4208531.jpg",
+      "ensemble_probability": 0.5408474802970886,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5408474802970886
+    },
+    {
+      "image": "02b5755aec225d24b550.jpg",
+      "ensemble_probability": 0.6015419960021973,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6015419960021973
+    },
+    {
+      "image": "02b7c0e195f8c2f39eef.jpg",
+      "ensemble_probability": 0.35906723141670227,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.35906723141670227
+    },
+    {
+      "image": "02b9b21a46db3a00e21e.jpg",
+      "ensemble_probability": 0.5416172742843628,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5416172742843628
+    },
+    {
+      "image": "02bc61f5f3dc97b316a3.jpg",
+      "ensemble_probability": 0.13854555785655975,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.13854555785655975
+    },
+    {
+      "image": "02d49498e59a82de8faf.jpg",
+      "ensemble_probability": 0.9835163950920105,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9835163950920105
+    },
+    {
+      "image": "02d4d0b99d6ce41744a1.jpg",
+      "ensemble_probability": 0.9925958514213562,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9925958514213562
+    },
+    {
+      "image": "02de6a8a45f105e46d71.jpg",
+      "ensemble_probability": 0.42586275935173035,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.42586275935173035
+    },
+    {
+      "image": "02e77189919b4ad69212.jpg",
+      "ensemble_probability": 0.07634388655424118,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.07634388655424118
+    },
+    {
+      "image": "02ec3bd67959f5701051.jpg",
+      "ensemble_probability": 0.9980893731117249,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9980893731117249
+    },
+    {
+      "image": "02ee25964cf83424cc92.jpg",
+      "ensemble_probability": 0.9972219467163086,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9972219467163086
+    },
+    {
+      "image": "02f7c77baf1042d193f9.jpg",
+      "ensemble_probability": 0.6707189679145813,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6707189679145813
+    },
+    {
+      "image": "02fb196d98e49de0da54.jpg",
+      "ensemble_probability": 0.9917912483215332,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9917912483215332
+    },
+    {
+      "image": "0309a906cb0bb5bc24f6.jpg",
+      "ensemble_probability": 0.9999105930328369,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999105930328369
+    },
+    {
+      "image": "03199c392c966da8ab70.jpg",
+      "ensemble_probability": 0.9845643043518066,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9845643043518066
+    },
+    {
+      "image": "031da6cdd32807eb01ff.jpg",
+      "ensemble_probability": 0.23649510741233826,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.23649510741233826
+    },
+    {
+      "image": "032085c36454bf43a16b.jpg",
+      "ensemble_probability": 0.9911052584648132,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9911052584648132
+    },
+    {
+      "image": "03267e2bbf7fd50fbd9e.jpg",
+      "ensemble_probability": 0.9586836099624634,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9586836099624634
+    },
+    {
+      "image": "03284eded8f4aebcee0e.jpg",
+      "ensemble_probability": 0.006783024873584509,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.006783024873584509
+    },
+    {
+      "image": "03331348d60f6de8006b.jpg",
+      "ensemble_probability": 0.09173953533172607,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.09173953533172607
+    },
+    {
+      "image": "0337966fd06e764e6abb.jpg",
+      "ensemble_probability": 0.36614474654197693,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.36614474654197693
+    },
+    {
+      "image": "033ab94fedf4a7f8ab55.jpg",
+      "ensemble_probability": 0.6891484260559082,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6891484260559082
+    },
+    {
+      "image": "035d8821207851bf08b0.jpg",
+      "ensemble_probability": 0.957482099533081,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.957482099533081
+    },
+    {
+      "image": "036bcc3f67ca70d03a10.jpg",
+      "ensemble_probability": 0.9982086420059204,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9982086420059204
+    },
+    {
+      "image": "036cc07261da18422ff9.jpg",
+      "ensemble_probability": 0.3663647472858429,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3663647472858429
+    },
+    {
+      "image": "037137b2e84fd354e559.jpg",
+      "ensemble_probability": 0.6338284611701965,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6338284611701965
+    },
+    {
+      "image": "0371399070fa7e8730a4.jpg",
+      "ensemble_probability": 0.07586897164583206,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.07586897164583206
+    },
+    {
+      "image": "0372c45acffe91102778.jpg",
+      "ensemble_probability": 0.6936450004577637,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6936450004577637
+    },
+    {
+      "image": "03754d42bce29044a482.jpg",
+      "ensemble_probability": 0.9753122329711914,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9753122329711914
+    },
+    {
+      "image": "03808bc2ea581a8cbf89.jpg",
+      "ensemble_probability": 0.9786697626113892,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9786697626113892
+    },
+    {
+      "image": "038580e3172a007e992c.jpg",
+      "ensemble_probability": 1.0,
+      "ensemble_label": 1,
+      "efficientnet_probability": 1.0
+    },
+    {
+      "image": "0389a10e138383d5a420.jpg",
+      "ensemble_probability": 0.9677671790122986,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9677671790122986
+    },
+    {
+      "image": "038a439a82dc048d574b.jpg",
+      "ensemble_probability": 0.28558844327926636,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.28558844327926636
+    },
+    {
+      "image": "039f533e432892c34107.jpg",
+      "ensemble_probability": 0.045733705163002014,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.045733705163002014
+    },
+    {
+      "image": "03a70f7b43198b1cdb35.jpg",
+      "ensemble_probability": 0.5301121473312378,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5301121473312378
+    },
+    {
+      "image": "03aaa0de25d280874ab8.jpg",
+      "ensemble_probability": 0.9981852173805237,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9981852173805237
+    },
+    {
+      "image": "03af0ce6672a4ebf4807.jpg",
+      "ensemble_probability": 0.9398820400238037,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9398820400238037
+    },
+    {
+      "image": "03af16e221dbeeb346e7.jpg",
+      "ensemble_probability": 0.5560530424118042,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5560530424118042
+    },
+    {
+      "image": "03baa1f844bfa315d315.jpg",
+      "ensemble_probability": 0.9997153878211975,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997153878211975
+    },
+    {
+      "image": "03c46ef5a805e52c6ea3.jpg",
+      "ensemble_probability": 0.9997707009315491,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997707009315491
+    },
+    {
+      "image": "03c587ea836bb7189240.jpg",
+      "ensemble_probability": 0.6320837736129761,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6320837736129761
+    },
+    {
+      "image": "03ca3d091c92d5c4223f.jpg",
+      "ensemble_probability": 0.0025532173458486795,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0025532173458486795
+    },
+    {
+      "image": "03d425abab59ad75bd19.jpg",
+      "ensemble_probability": 0.995781421661377,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.995781421661377
+    },
+    {
+      "image": "03d66057e3b4f6bba90e.jpg",
+      "ensemble_probability": 0.9999982118606567,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999982118606567
+    },
+    {
+      "image": "03d71e5cdce711ec8db9.jpg",
+      "ensemble_probability": 0.9113398194313049,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9113398194313049
+    },
+    {
+      "image": "03e2a55ec24d507e848b.jpg",
+      "ensemble_probability": 0.9994667172431946,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9994667172431946
+    },
+    {
+      "image": "03e3b567baee7e1ef238.jpg",
+      "ensemble_probability": 0.9999943971633911,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999943971633911
+    },
+    {
+      "image": "03e6f660a26528af3d38.jpg",
+      "ensemble_probability": 0.1655113697052002,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.1655113697052002
+    },
+    {
+      "image": "03e74db67c4e03c14787.jpg",
+      "ensemble_probability": 0.8763547539710999,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8763547539710999
+    },
+    {
+      "image": "03f5be7def2f6079354c.jpg",
+      "ensemble_probability": 0.06036936491727829,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.06036936491727829
+    },
+    {
+      "image": "03fc109cb05998ded7cd.jpg",
+      "ensemble_probability": 0.2342802882194519,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.2342802882194519
+    },
+    {
+      "image": "03ff733554ba2d0a1e2c.jpg",
+      "ensemble_probability": 0.9999884366989136,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999884366989136
+    },
+    {
+      "image": "040dfa49e7b05997f560.jpg",
+      "ensemble_probability": 0.961554229259491,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.961554229259491
+    },
+    {
+      "image": "04165ffbaab267b6211d.jpg",
+      "ensemble_probability": 0.9721618890762329,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9721618890762329
+    },
+    {
+      "image": "04213943002075614a3a.jpg",
+      "ensemble_probability": 0.06725102663040161,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.06725102663040161
+    },
+    {
+      "image": "042209e0dbf154cd9266.jpg",
+      "ensemble_probability": 0.016136862337589264,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.016136862337589264
+    },
+    {
+      "image": "04276a3d68901840c92b.jpg",
+      "ensemble_probability": 0.9757771492004395,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9757771492004395
+    },
+    {
+      "image": "042e4c0620ab83bf4ef6.jpg",
+      "ensemble_probability": 0.5834172964096069,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5834172964096069
+    },
+    {
+      "image": "0430aa7a444f8b4853d1.jpg",
+      "ensemble_probability": 0.9765055179595947,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9765055179595947
+    },
+    {
+      "image": "043913e441576543ad46.jpg",
+      "ensemble_probability": 0.9785903096199036,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9785903096199036
+    },
+    {
+      "image": "043e4f00c25c94673319.jpg",
+      "ensemble_probability": 0.9900410771369934,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9900410771369934
+    },
+    {
+      "image": "0440868b24085db512cf.jpg",
+      "ensemble_probability": 0.9997023940086365,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997023940086365
+    },
+    {
+      "image": "04412d6bfb2d74d92ab1.jpg",
+      "ensemble_probability": 0.29085469245910645,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.29085469245910645
+    },
+    {
+      "image": "04419b93fef112214698.jpg",
+      "ensemble_probability": 0.9970157146453857,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9970157146453857
+    },
+    {
+      "image": "044260859ec1cbdf8908.jpg",
+      "ensemble_probability": 0.9762439131736755,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9762439131736755
+    },
+    {
+      "image": "0442a301aa40492780a2.jpg",
+      "ensemble_probability": 0.1695709228515625,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.1695709228515625
+    },
+    {
+      "image": "044ae8d054442fd933cc.jpg",
+      "ensemble_probability": 0.9452151656150818,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9452151656150818
+    },
+    {
+      "image": "044be22297bc1f206a52.jpg",
+      "ensemble_probability": 0.5254338383674622,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5254338383674622
+    },
+    {
+      "image": "0452d13a50facf13327e.jpg",
+      "ensemble_probability": 0.9915491342544556,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9915491342544556
+    },
+    {
+      "image": "045822cd721932361c42.jpg",
+      "ensemble_probability": 0.9779794812202454,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9779794812202454
+    },
+    {
+      "image": "045fc2829256d963fe5d.jpg",
+      "ensemble_probability": 0.0041835191659629345,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0041835191659629345
+    },
+    {
+      "image": "04608036bd18d9e2c0f7.jpg",
+      "ensemble_probability": 0.8019627332687378,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8019627332687378
+    },
+    {
+      "image": "04837081257910c849d6.jpg",
+      "ensemble_probability": 0.988142192363739,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.988142192363739
+    },
+    {
+      "image": "048550d8b98632535695.jpg",
+      "ensemble_probability": 0.9996930360794067,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9996930360794067
+    },
+    {
+      "image": "04868c1a66a4cafceb72.jpg",
+      "ensemble_probability": 0.9735499620437622,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9735499620437622
+    },
+    {
+      "image": "04876dd225a40ac32f9b.jpg",
+      "ensemble_probability": 0.002463721903041005,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.002463721903041005
+    },
+    {
+      "image": "0494affef8f81339717d.jpg",
+      "ensemble_probability": 0.9074031114578247,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9074031114578247
+    },
+    {
+      "image": "0495186dd724fd355ae0.jpg",
+      "ensemble_probability": 0.9914349913597107,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9914349913597107
+    },
+    {
+      "image": "04a6265c7be931e79708.jpg",
+      "ensemble_probability": 0.8916158080101013,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8916158080101013
+    },
+    {
+      "image": "04a744c6d67f4439a85b.jpg",
+      "ensemble_probability": 0.04628793150186539,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.04628793150186539
+    },
+    {
+      "image": "04af9ba69965fbf93da1.jpg",
+      "ensemble_probability": 0.9999797344207764,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999797344207764
+    },
+    {
+      "image": "04b2bf4811c088d6e82e.jpg",
+      "ensemble_probability": 0.9992103576660156,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9992103576660156
+    },
+    {
+      "image": "04b5ea3d0e5b5a486aae.jpg",
+      "ensemble_probability": 0.22306673228740692,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.22306673228740692
+    },
+    {
+      "image": "04b80bdae7fe295c1edb.jpg",
+      "ensemble_probability": 0.9995644688606262,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9995644688606262
+    },
+    {
+      "image": "04bfab4ac6e0b7e0cc5e.jpg",
+      "ensemble_probability": 0.999723494052887,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.999723494052887
+    },
+    {
+      "image": "04c068bc778efe0ee035.jpg",
+      "ensemble_probability": 0.015323749743402004,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.015323749743402004
+    },
+    {
+      "image": "04cb351543bc51e0bbb2.jpg",
+      "ensemble_probability": 0.8554161787033081,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8554161787033081
+    },
+    {
+      "image": "04d4852f55425a7b225d.jpg",
+      "ensemble_probability": 0.9999467134475708,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999467134475708
+    },
+    {
+      "image": "04dce4a7703a8bbc7752.jpg",
+      "ensemble_probability": 0.0013346277410164475,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0013346277410164475
+    },
+    {
+      "image": "04e3d92fc525cd2abaf7.jpg",
+      "ensemble_probability": 0.00415961816906929,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.00415961816906929
+    },
+    {
+      "image": "04e41d1a69824c8bac8d.jpg",
+      "ensemble_probability": 0.995919942855835,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.995919942855835
+    },
+    {
+      "image": "04e4858ec762ff0a4e00.jpg",
+      "ensemble_probability": 0.9956161975860596,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9956161975860596
+    },
+    {
+      "image": "04f0bdcad45008c88e01.jpg",
+      "ensemble_probability": 0.9990768432617188,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9990768432617188
+    },
+    {
+      "image": "04f0e7034a17ec2491bc.jpg",
+      "ensemble_probability": 0.9999972581863403,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999972581863403
+    },
+    {
+      "image": "04f7de89f9c1ab58d653.jpg",
+      "ensemble_probability": 0.9209375977516174,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9209375977516174
+    },
+    {
+      "image": "0509fd5a9155bd8c3c1e.jpg",
+      "ensemble_probability": 0.03324832767248154,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.03324832767248154
+    },
+    {
+      "image": "050dcb5a7415f5304478.jpg",
+      "ensemble_probability": 0.024819351732730865,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.024819351732730865
+    },
+    {
+      "image": "0517a90e4ed9de4985dd.jpg",
+      "ensemble_probability": 0.6404600143432617,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6404600143432617
+    },
+    {
+      "image": "0520fd0100e4363231c7.jpg",
+      "ensemble_probability": 0.9992644190788269,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9992644190788269
+    },
+    {
+      "image": "053350883eec5627e780.jpg",
+      "ensemble_probability": 0.013720163144171238,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.013720163144171238
+    },
+    {
+      "image": "0536c4c46f2c80767e62.jpg",
+      "ensemble_probability": 0.6538410186767578,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6538410186767578
+    },
+    {
+      "image": "05499484e4975946bf51.jpg",
+      "ensemble_probability": 0.9523876905441284,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9523876905441284
+    },
+    {
+      "image": "0552051f0694eb54909b.jpg",
+      "ensemble_probability": 0.9750407338142395,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9750407338142395
+    },
+    {
+      "image": "0552728dee061ed226b7.jpg",
+      "ensemble_probability": 0.9993751645088196,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9993751645088196
+    },
+    {
+      "image": "055ba288a696a168d2a8.jpg",
+      "ensemble_probability": 0.999545156955719,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.999545156955719
+    },
+    {
+      "image": "0564544056f12a31eda6.jpg",
+      "ensemble_probability": 0.9989956021308899,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9989956021308899
+    },
+    {
+      "image": "057275f728455168f41e.jpg",
+      "ensemble_probability": 0.014074236154556274,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.014074236154556274
+    },
+    {
+      "image": "0573675cb0a73ee78e61.jpg",
+      "ensemble_probability": 0.8401384949684143,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8401384949684143
+    },
+    {
+      "image": "0578ce79a5ae5a378fb0.jpg",
+      "ensemble_probability": 0.800006628036499,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.800006628036499
+    },
+    {
+      "image": "057ca0697f19503615c6.jpg",
+      "ensemble_probability": 0.25224077701568604,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.25224077701568604
+    },
+    {
+      "image": "057d3868918545914215.jpg",
+      "ensemble_probability": 0.9993106126785278,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9993106126785278
+    },
+    {
+      "image": "0583df9037a7414497b2.jpg",
+      "ensemble_probability": 0.00018555788847152144,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.00018555788847152144
+    },
+    {
+      "image": "058a5a563cbe4cc11cfe.jpg",
+      "ensemble_probability": 0.9986881613731384,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9986881613731384
+    },
+    {
+      "image": "058bb9e29a764adb2ac4.jpg",
+      "ensemble_probability": 0.9903871417045593,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9903871417045593
+    },
+    {
+      "image": "058e0c42ca90f1dd4c35.jpg",
+      "ensemble_probability": 0.9678692817687988,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9678692817687988
+    },
+    {
+      "image": "059234737442c4333ea6.jpg",
+      "ensemble_probability": 0.9996086955070496,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9996086955070496
+    },
+    {
+      "image": "05948ccd89c2a7440af1.jpg",
+      "ensemble_probability": 0.9675537943840027,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9675537943840027
+    },
+    {
+      "image": "0594c7abd2cb1c7fb54d.jpg",
+      "ensemble_probability": 0.06919295340776443,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.06919295340776443
+    },
+    {
+      "image": "059e5f598da8c0caf023.jpg",
+      "ensemble_probability": 0.4512811005115509,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4512811005115509
+    },
+    {
+      "image": "059f43bb3e686c08f855.jpg",
+      "ensemble_probability": 0.9998276233673096,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998276233673096
+    },
+    {
+      "image": "059f6843b4c0e928e8c8.jpg",
+      "ensemble_probability": 0.9529090523719788,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9529090523719788
+    },
+    {
+      "image": "05bc731a7b60c6edde87.jpg",
+      "ensemble_probability": 0.6379039287567139,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6379039287567139
+    },
+    {
+      "image": "05cb1386e0bdbb334163.jpg",
+      "ensemble_probability": 0.9998125433921814,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998125433921814
+    },
+    {
+      "image": "05cdfea0f3ced4c02676.jpg",
+      "ensemble_probability": 0.6317681074142456,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6317681074142456
+    },
+    {
+      "image": "05de7a878c093706eb3a.jpg",
+      "ensemble_probability": 0.1269422024488449,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.1269422024488449
+    },
+    {
+      "image": "05e4c201a647fd41754d.jpg",
+      "ensemble_probability": 0.8977136611938477,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8977136611938477
+    },
+    {
+      "image": "05f7d46f7a4bac02212a.jpg",
+      "ensemble_probability": 0.994231641292572,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.994231641292572
+    },
+    {
+      "image": "05fadb6349e9d81af4de.jpg",
+      "ensemble_probability": 0.5061266422271729,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5061266422271729
+    },
+    {
+      "image": "0602385a4456a1057776.jpg",
+      "ensemble_probability": 0.005829408299177885,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.005829408299177885
+    },
+    {
+      "image": "060255d6e5b668f8b324.jpg",
+      "ensemble_probability": 0.9999362230300903,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999362230300903
+    },
+    {
+      "image": "0606d72a5b28384d677f.jpg",
+      "ensemble_probability": 0.9917212128639221,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9917212128639221
+    },
+    {
+      "image": "060aeaacbf7cd4489b7a.jpg",
+      "ensemble_probability": 0.828194260597229,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.828194260597229
+    },
+    {
+      "image": "060de946f07753293c00.jpg",
+      "ensemble_probability": 0.9999587535858154,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999587535858154
+    },
+    {
+      "image": "0614a1d5fa8dd86b03b2.jpg",
+      "ensemble_probability": 0.9998846054077148,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998846054077148
+    },
+    {
+      "image": "06216b63c5bc07ac8c80.jpg",
+      "ensemble_probability": 0.9482870697975159,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9482870697975159
+    },
+    {
+      "image": "06231d0fff4c23e6dc0f.jpg",
+      "ensemble_probability": 0.6830621957778931,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6830621957778931
+    },
+    {
+      "image": "0629f6be1cfeb41aeb23.jpg",
+      "ensemble_probability": 0.6501121520996094,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6501121520996094
+    },
+    {
+      "image": "0642bfb3304820f1864d.jpg",
+      "ensemble_probability": 0.9972227811813354,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9972227811813354
+    },
+    {
+      "image": "06450f8bb81f6f964e01.jpg",
+      "ensemble_probability": 0.5641391277313232,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5641391277313232
+    },
+    {
+      "image": "064ac01a63cf91376d7e.jpg",
+      "ensemble_probability": 0.99985671043396,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.99985671043396
+    },
+    {
+      "image": "06613d5c42adf681c2e6.jpg",
+      "ensemble_probability": 0.9975851774215698,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9975851774215698
+    },
+    {
+      "image": "0665111567bf6aad4ad1.jpg",
+      "ensemble_probability": 0.9971875548362732,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9971875548362732
+    },
+    {
+      "image": "06668fcdc7fe47a3df29.jpg",
+      "ensemble_probability": 0.9664748311042786,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9664748311042786
+    },
+    {
+      "image": "06681648cde64340d110.jpg",
+      "ensemble_probability": 0.9664070010185242,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9664070010185242
+    },
+    {
+      "image": "066c17453e059475b347.jpg",
+      "ensemble_probability": 0.9969022274017334,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9969022274017334
+    },
+    {
+      "image": "0670ad9198a603590db3.jpg",
+      "ensemble_probability": 0.9995782971382141,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9995782971382141
+    },
+    {
+      "image": "0674b1b468da08a3e19c.jpg",
+      "ensemble_probability": 0.9987865090370178,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9987865090370178
+    },
+    {
+      "image": "067789836b0cca427402.jpg",
+      "ensemble_probability": 0.6751595735549927,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6751595735549927
+    },
+    {
+      "image": "06843d4a220259048429.jpg",
+      "ensemble_probability": 0.9972825050354004,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9972825050354004
+    },
+    {
+      "image": "068928caa7109309eb02.jpg",
+      "ensemble_probability": 0.4029979109764099,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4029979109764099
+    },
+    {
+      "image": "0692d301bc8af0e2f61e.jpg",
+      "ensemble_probability": 0.9817511439323425,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9817511439323425
+    },
+    {
+      "image": "069ad25b97bfc2f306a4.jpg",
+      "ensemble_probability": 0.9945618510246277,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9945618510246277
+    },
+    {
+      "image": "06b4ca19f29ad7b7b74b.jpg",
+      "ensemble_probability": 0.9991525411605835,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9991525411605835
+    },
+    {
+      "image": "06bed1f297325a6c0f80.jpg",
+      "ensemble_probability": 0.9935019612312317,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9935019612312317
+    },
+    {
+      "image": "06c1ebafd2fbaea61833.jpg",
+      "ensemble_probability": 0.04442472383379936,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.04442472383379936
+    },
+    {
+      "image": "06c3d6f965c420cdc8cb.jpg",
+      "ensemble_probability": 0.992010772228241,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.992010772228241
+    },
+    {
+      "image": "06c894c5e96806ce46c2.jpg",
+      "ensemble_probability": 0.027246780693531036,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.027246780693531036
+    },
+    {
+      "image": "06df2d33a09d55639a7c.jpg",
+      "ensemble_probability": 0.8572834730148315,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8572834730148315
+    },
+    {
+      "image": "06ee2c1d05a7c56c5269.jpg",
+      "ensemble_probability": 0.9063403010368347,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9063403010368347
+    },
+    {
+      "image": "06f2e3bb7aaedeb637cf.jpg",
+      "ensemble_probability": 1.0,
+      "ensemble_label": 1,
+      "efficientnet_probability": 1.0
+    },
+    {
+      "image": "06f3718b89ecda754e12.jpg",
+      "ensemble_probability": 0.00014102636487223208,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.00014102636487223208
+    },
+    {
+      "image": "06f7f62366d5be2c1196.jpg",
+      "ensemble_probability": 0.42095717787742615,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.42095717787742615
+    },
+    {
+      "image": "06fb03948ed9ecc342e0.jpg",
+      "ensemble_probability": 0.38106629252433777,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.38106629252433777
+    },
+    {
+      "image": "07178b612abf09d8efaf.jpg",
+      "ensemble_probability": 0.8920751214027405,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8920751214027405
+    },
+    {
+      "image": "0726c99e4fa7ccc5a649.jpg",
+      "ensemble_probability": 0.9839481711387634,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9839481711387634
+    },
+    {
+      "image": "072dc3d34feeddb792d7.jpg",
+      "ensemble_probability": 0.15820805728435516,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.15820805728435516
+    },
+    {
+      "image": "072fee7ed69ca2081d28.jpg",
+      "ensemble_probability": 0.6299724578857422,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6299724578857422
+    },
+    {
+      "image": "073233f84b1f4717922d.jpg",
+      "ensemble_probability": 0.10027234256267548,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.10027234256267548
+    },
+    {
+      "image": "07345b0e4c4a1cd2705d.jpg",
+      "ensemble_probability": 0.8554232716560364,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8554232716560364
+    },
+    {
+      "image": "073a38919e2cda83b553.jpg",
+      "ensemble_probability": 0.8816327452659607,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8816327452659607
+    },
+    {
+      "image": "0744622e0c645921f7c1.jpg",
+      "ensemble_probability": 0.9304000735282898,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9304000735282898
+    },
+    {
+      "image": "0746e153382770cf0811.jpg",
+      "ensemble_probability": 0.0135212866589427,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0135212866589427
+    },
+    {
+      "image": "074957d0c31d91bb60f5.jpg",
+      "ensemble_probability": 0.9912375211715698,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9912375211715698
+    },
+    {
+      "image": "074bd7039387e0478ebb.jpg",
+      "ensemble_probability": 0.09467604011297226,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.09467604011297226
+    },
+    {
+      "image": "074e9fafe2350b2139cb.jpg",
+      "ensemble_probability": 0.12115330249071121,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.12115330249071121
+    },
+    {
+      "image": "075d0109f4963119f874.jpg",
+      "ensemble_probability": 0.9909456968307495,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9909456968307495
+    },
+    {
+      "image": "075feee8f0171562174b.jpg",
+      "ensemble_probability": 0.7453595995903015,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7453595995903015
+    },
+    {
+      "image": "0764325cdfccdc0e9077.jpg",
+      "ensemble_probability": 0.02358337678015232,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.02358337678015232
+    },
+    {
+      "image": "0768d48161f9980f7f2c.jpg",
+      "ensemble_probability": 0.6776242256164551,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6776242256164551
+    },
+    {
+      "image": "0768d9ddf2d2daa2ad20.jpg",
+      "ensemble_probability": 0.9959709048271179,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9959709048271179
+    },
+    {
+      "image": "076dd2828dc9026c77e5.jpg",
+      "ensemble_probability": 0.9937453269958496,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9937453269958496
+    },
+    {
+      "image": "0772554cfc619de9cbcd.jpg",
+      "ensemble_probability": 0.9319115281105042,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9319115281105042
+    },
+    {
+      "image": "0772ad088ed3a4e45e7b.jpg",
+      "ensemble_probability": 0.12190450727939606,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.12190450727939606
+    },
+    {
+      "image": "077c113f40be1f2630a6.jpg",
+      "ensemble_probability": 0.13998503983020782,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.13998503983020782
+    },
+    {
+      "image": "077d5f531b46cf22ae50.jpg",
+      "ensemble_probability": 0.9925079941749573,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9925079941749573
+    },
+    {
+      "image": "078a024d42965af5e39e.jpg",
+      "ensemble_probability": 0.08902153372764587,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.08902153372764587
+    },
+    {
+      "image": "078d80c0439405c38ba6.jpg",
+      "ensemble_probability": 0.004018497187644243,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.004018497187644243
+    },
+    {
+      "image": "07948e2b84dd4c35f232.jpg",
+      "ensemble_probability": 0.996747612953186,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.996747612953186
+    },
+    {
+      "image": "07afc95c1c31c6bb2d1c.jpg",
+      "ensemble_probability": 0.3108222186565399,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3108222186565399
+    },
+    {
+      "image": "07b254d8571a4bea0951.jpg",
+      "ensemble_probability": 0.8980854153633118,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8980854153633118
+    },
+    {
+      "image": "07b515c46aa4663fa341.jpg",
+      "ensemble_probability": 0.004234300926327705,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.004234300926327705
+    },
+    {
+      "image": "07b73cf19267fa465083.jpg",
+      "ensemble_probability": 0.9994044303894043,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9994044303894043
+    },
+    {
+      "image": "07c24c5be49459672763.jpg",
+      "ensemble_probability": 0.05136103928089142,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.05136103928089142
+    },
+    {
+      "image": "07c2d54857771c425e8a.jpg",
+      "ensemble_probability": 0.0744200125336647,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0744200125336647
+    },
+    {
+      "image": "07c47c78ecc0819db2b1.jpg",
+      "ensemble_probability": 0.9999635219573975,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999635219573975
+    },
+    {
+      "image": "07c4b6af89a19ea20481.jpg",
+      "ensemble_probability": 0.6253502368927002,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6253502368927002
+    },
+    {
+      "image": "07cbd84af50eff9cb709.jpg",
+      "ensemble_probability": 0.9594483971595764,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9594483971595764
+    },
+    {
+      "image": "07d295211e39e22c1db5.jpg",
+      "ensemble_probability": 0.985818088054657,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.985818088054657
+    },
+    {
+      "image": "07d38bd4a07f8521183b.jpg",
+      "ensemble_probability": 0.7168206572532654,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7168206572532654
+    },
+    {
+      "image": "07dfc91cdcbed232baf0.jpg",
+      "ensemble_probability": 0.13548949360847473,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.13548949360847473
+    },
+    {
+      "image": "07e7e71b4a0f919e6963.jpg",
+      "ensemble_probability": 0.9990678429603577,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9990678429603577
+    },
+    {
+      "image": "07e9ec10902c5dd2be62.jpg",
+      "ensemble_probability": 0.4862688183784485,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4862688183784485
+    },
+    {
+      "image": "07f3cc21582e5c6f82c0.jpg",
+      "ensemble_probability": 0.9999271631240845,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999271631240845
+    },
+    {
+      "image": "07feb8694e274811a5d9.jpg",
+      "ensemble_probability": 0.9954280853271484,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9954280853271484
+    },
+    {
+      "image": "0801571bdd8db3c7d3da.jpg",
+      "ensemble_probability": 0.9983769655227661,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9983769655227661
+    },
+    {
+      "image": "080bf4a9a1394a70801d.jpg",
+      "ensemble_probability": 0.9850281476974487,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9850281476974487
+    },
+    {
+      "image": "0810a0a5da3109f294de.jpg",
+      "ensemble_probability": 0.9995759129524231,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9995759129524231
+    },
+    {
+      "image": "0814c249a6fd6c1624ef.jpg",
+      "ensemble_probability": 0.999313473701477,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.999313473701477
+    },
+    {
+      "image": "081d3505276424aa82b3.jpg",
+      "ensemble_probability": 0.8633490800857544,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8633490800857544
+    },
+    {
+      "image": "082096dbc79c79fd0b1a.jpg",
+      "ensemble_probability": 0.953835129737854,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.953835129737854
+    },
+    {
+      "image": "08227dee13da855c5273.jpg",
+      "ensemble_probability": 0.9946973323822021,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9946973323822021
+    },
+    {
+      "image": "082a470872b0ad857c8c.jpg",
+      "ensemble_probability": 0.8679879307746887,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8679879307746887
+    },
+    {
+      "image": "082b7b992c0afdd3f952.jpg",
+      "ensemble_probability": 0.9954301118850708,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9954301118850708
+    },
+    {
+      "image": "082c79d49093f7353e57.jpg",
+      "ensemble_probability": 0.9624538421630859,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9624538421630859
+    },
+    {
+      "image": "082eda56c852cd67d0b4.jpg",
+      "ensemble_probability": 0.9276943802833557,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9276943802833557
+    },
+    {
+      "image": "083b0cc3e3ca96643973.jpg",
+      "ensemble_probability": 0.21951505541801453,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.21951505541801453
+    },
+    {
+      "image": "084040fb4b96cfb51dc8.jpg",
+      "ensemble_probability": 0.9969620108604431,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9969620108604431
+    },
+    {
+      "image": "0842283cfc531807d557.jpg",
+      "ensemble_probability": 0.3689245581626892,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3689245581626892
+    },
+    {
+      "image": "0851efba6b4b07e0290d.jpg",
+      "ensemble_probability": 0.9896174669265747,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9896174669265747
+    },
+    {
+      "image": "08543f5caa8ce4b1a572.jpg",
+      "ensemble_probability": 0.9998422861099243,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998422861099243
+    },
+    {
+      "image": "086d2b5612afad91d1a4.jpg",
+      "ensemble_probability": 0.34938621520996094,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.34938621520996094
+    },
+    {
+      "image": "087cc131c2668f651205.jpg",
+      "ensemble_probability": 0.5148765444755554,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5148765444755554
+    },
+    {
+      "image": "08823250f9c07ed213b4.jpg",
+      "ensemble_probability": 0.9890174865722656,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9890174865722656
+    },
+    {
+      "image": "0883477fd885d68f04ca.jpg",
+      "ensemble_probability": 0.9762632250785828,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9762632250785828
+    },
+    {
+      "image": "0884f7ed39451cea8d5c.jpg",
+      "ensemble_probability": 0.9979488253593445,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9979488253593445
+    },
+    {
+      "image": "088bb122860001dc6351.jpg",
+      "ensemble_probability": 0.9960848093032837,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9960848093032837
+    },
+    {
+      "image": "088c05e0106e55c1e019.jpg",
+      "ensemble_probability": 0.9978916049003601,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9978916049003601
+    },
+    {
+      "image": "088cc0fe5f4646fb4169.jpg",
+      "ensemble_probability": 0.9999464750289917,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999464750289917
+    },
+    {
+      "image": "0899154306d37b4fd4bd.jpg",
+      "ensemble_probability": 0.6601190567016602,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6601190567016602
+    },
+    {
+      "image": "08a0154615ea94800cd8.jpg",
+      "ensemble_probability": 0.2801235318183899,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.2801235318183899
+    },
+    {
+      "image": "08a387dfb6bdf9580e12.jpg",
+      "ensemble_probability": 1.0,
+      "ensemble_label": 1,
+      "efficientnet_probability": 1.0
+    },
+    {
+      "image": "08a8ba55213e36f477f5.jpg",
+      "ensemble_probability": 0.9000956416130066,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9000956416130066
+    },
+    {
+      "image": "08ac78bd83da8dd6bb17.jpg",
+      "ensemble_probability": 0.20777899026870728,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.20777899026870728
+    },
+    {
+      "image": "08aebd641dae76fb71b6.jpg",
+      "ensemble_probability": 0.9992203712463379,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9992203712463379
+    },
+    {
+      "image": "08b3116c7cb94b2ec2a1.jpg",
+      "ensemble_probability": 0.0937698557972908,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0937698557972908
+    },
+    {
+      "image": "08b3ec909f3814c3dd9a.jpg",
+      "ensemble_probability": 0.15561428666114807,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.15561428666114807
+    },
+    {
+      "image": "08b74fb81ef23af37a2e.jpg",
+      "ensemble_probability": 0.6411074995994568,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6411074995994568
+    },
+    {
+      "image": "08b85ad987510c18bee2.jpg",
+      "ensemble_probability": 0.9999759197235107,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999759197235107
+    },
+    {
+      "image": "08c24fa50325be06c74b.jpg",
+      "ensemble_probability": 0.13307815790176392,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.13307815790176392
+    },
+    {
+      "image": "08c64163cfe9611da563.jpg",
+      "ensemble_probability": 0.012564925476908684,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.012564925476908684
+    },
+    {
+      "image": "08c862e9dac79d84aa43.jpg",
+      "ensemble_probability": 0.9999172687530518,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999172687530518
+    },
+    {
+      "image": "08c8f4719524d9c135d7.jpg",
+      "ensemble_probability": 0.9536356329917908,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9536356329917908
+    },
+    {
+      "image": "08c90637d375593d7477.jpg",
+      "ensemble_probability": 0.09602188318967819,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.09602188318967819
+    },
+    {
+      "image": "08cc19d6f67705d67805.jpg",
+      "ensemble_probability": 0.9994843006134033,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9994843006134033
+    },
+    {
+      "image": "08cde26a1f9a71ffd670.jpg",
+      "ensemble_probability": 0.9098101854324341,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9098101854324341
+    },
+    {
+      "image": "08d3a4e1e00f548a609c.jpg",
+      "ensemble_probability": 0.9999653100967407,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999653100967407
+    },
+    {
+      "image": "08d613957c3efc09b11f.jpg",
+      "ensemble_probability": 1.5171756786003243e-05,
+      "ensemble_label": 0,
+      "efficientnet_probability": 1.5171756786003243e-05
+    },
+    {
+      "image": "08d9e7842cd837a85a75.jpg",
+      "ensemble_probability": 0.7891671061515808,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7891671061515808
+    },
+    {
+      "image": "08feed6640c1edb69133.jpg",
+      "ensemble_probability": 0.50078284740448,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.50078284740448
+    },
+    {
+      "image": "090003b3df02de5a3425.jpg",
+      "ensemble_probability": 0.9332037568092346,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9332037568092346
+    },
+    {
+      "image": "090a32a3e2471c65c035.jpg",
+      "ensemble_probability": 0.9894309043884277,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9894309043884277
+    },
+    {
+      "image": "090ba6cc5cd43a30c80e.jpg",
+      "ensemble_probability": 0.9719336628913879,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9719336628913879
+    },
+    {
+      "image": "091344c0f2d7baa41724.jpg",
+      "ensemble_probability": 0.9997618794441223,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997618794441223
+    },
+    {
+      "image": "0916ea6be5cc3f3cd693.jpg",
+      "ensemble_probability": 0.8168582916259766,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8168582916259766
+    },
+    {
+      "image": "09174b5106638135676f.jpg",
+      "ensemble_probability": 0.9490988254547119,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9490988254547119
+    },
+    {
+      "image": "091d0e92b18d1bde0694.jpg",
+      "ensemble_probability": 0.013567879796028137,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.013567879796028137
+    },
+    {
+      "image": "091e485f52656f5ba134.jpg",
+      "ensemble_probability": 0.9794393181800842,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9794393181800842
+    },
+    {
+      "image": "0920d88d28fd7a1ef4d5.jpg",
+      "ensemble_probability": 0.787483811378479,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.787483811378479
+    },
+    {
+      "image": "0922604c2fec52c312fe.jpg",
+      "ensemble_probability": 0.9996324777603149,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9996324777603149
+    },
+    {
+      "image": "092f2de0db88bd477009.jpg",
+      "ensemble_probability": 0.19815589487552643,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.19815589487552643
+    },
+    {
+      "image": "0930a8117249bb658547.jpg",
+      "ensemble_probability": 0.48948562145233154,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.48948562145233154
+    },
+    {
+      "image": "0933fe88cfef565cc97e.jpg",
+      "ensemble_probability": 0.4870658218860626,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4870658218860626
+    },
+    {
+      "image": "09379f1af0116d51666c.jpg",
+      "ensemble_probability": 0.9959118366241455,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9959118366241455
+    },
+    {
+      "image": "094158bee8330de5ae10.jpg",
+      "ensemble_probability": 0.9990069270133972,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9990069270133972
+    },
+    {
+      "image": "094474ec8320ec742001.jpg",
+      "ensemble_probability": 0.7571763396263123,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7571763396263123
+    },
+    {
+      "image": "09463e61101de38a9185.jpg",
+      "ensemble_probability": 0.7194162607192993,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7194162607192993
+    },
+    {
+      "image": "096f9785e3913afc27e7.jpg",
+      "ensemble_probability": 0.9996963739395142,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9996963739395142
+    },
+    {
+      "image": "097d1ae850f0ef1cbe8d.jpg",
+      "ensemble_probability": 0.5858933329582214,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5858933329582214
+    },
+    {
+      "image": "097f4d6283d0e12a4425.jpg",
+      "ensemble_probability": 0.3478356599807739,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3478356599807739
+    },
+    {
+      "image": "098b576ad39ad0a05f33.jpg",
+      "ensemble_probability": 0.25981405377388,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.25981405377388
+    },
+    {
+      "image": "0996047922a8b741acc4.jpg",
+      "ensemble_probability": 0.9956750273704529,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9956750273704529
+    },
+    {
+      "image": "0998ac2c30f93046a4cb.jpg",
+      "ensemble_probability": 0.999677300453186,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.999677300453186
+    },
+    {
+      "image": "099ca25d3dcda7ef5cd0.jpg",
+      "ensemble_probability": 0.9999958276748657,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999958276748657
+    },
+    {
+      "image": "09a1551b640b494e0d5b.jpg",
+      "ensemble_probability": 0.9854625463485718,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9854625463485718
+    },
+    {
+      "image": "09a4059cf0b19eed4edd.jpg",
+      "ensemble_probability": 0.972244918346405,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.972244918346405
+    },
+    {
+      "image": "09a9bf2b2d2796146886.jpg",
+      "ensemble_probability": 0.9951362013816833,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9951362013816833
+    },
+    {
+      "image": "09ac8cc61df2c51a4483.jpg",
+      "ensemble_probability": 0.8864604234695435,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8864604234695435
+    },
+    {
+      "image": "09b66389d44c0982b534.jpg",
+      "ensemble_probability": 0.9976050853729248,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9976050853729248
+    },
+    {
+      "image": "09b7de9872bc45a455d6.jpg",
+      "ensemble_probability": 0.2769816815853119,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.2769816815853119
+    },
+    {
+      "image": "09bdcbb579d3dfbbedf9.jpg",
+      "ensemble_probability": 0.8246729373931885,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8246729373931885
+    },
+    {
+      "image": "09c635bfc1e8bdce55ca.jpg",
+      "ensemble_probability": 0.9999731779098511,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999731779098511
+    },
+    {
+      "image": "09c93f4de7c3af3c3d05.jpg",
+      "ensemble_probability": 0.996059775352478,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.996059775352478
+    },
+    {
+      "image": "09c97e62ed0d36fc7e50.jpg",
+      "ensemble_probability": 0.8736541867256165,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8736541867256165
+    },
+    {
+      "image": "09c9a1fac5de12de6082.jpg",
+      "ensemble_probability": 0.003465329995378852,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.003465329995378852
+    },
+    {
+      "image": "09ccdaf301bd03fde2d4.jpg",
+      "ensemble_probability": 0.9672689437866211,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9672689437866211
+    },
+    {
+      "image": "09d39f5477475281f53b.jpg",
+      "ensemble_probability": 0.5393583178520203,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5393583178520203
+    },
+    {
+      "image": "09d6343b9efa326dc896.jpg",
+      "ensemble_probability": 0.996502161026001,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.996502161026001
+    },
+    {
+      "image": "09d7d17fe9293554c25f.jpg",
+      "ensemble_probability": 0.2833411693572998,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.2833411693572998
+    },
+    {
+      "image": "09dedd7264350ff846e7.jpg",
+      "ensemble_probability": 0.9958386421203613,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9958386421203613
+    },
+    {
+      "image": "09e0147bbedf7c85efbc.jpg",
+      "ensemble_probability": 0.9690096378326416,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9690096378326416
+    },
+    {
+      "image": "09e4d07ee84347b51a1e.jpg",
+      "ensemble_probability": 0.31511256098747253,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.31511256098747253
+    },
+    {
+      "image": "09e92c4cdec7eecda2db.jpg",
+      "ensemble_probability": 0.8885030746459961,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8885030746459961
+    },
+    {
+      "image": "0a019013246728920a34.jpg",
+      "ensemble_probability": 0.9917136430740356,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9917136430740356
+    },
+    {
+      "image": "0a01b1e2163365da773f.jpg",
+      "ensemble_probability": 0.0031700388062745333,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0031700388062745333
+    },
+    {
+      "image": "0a055f228432b773cf3e.jpg",
+      "ensemble_probability": 0.9999089241027832,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999089241027832
+    },
+    {
+      "image": "0a077c916af239a9d2f0.jpg",
+      "ensemble_probability": 0.42117252945899963,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.42117252945899963
+    },
+    {
+      "image": "0a08b4dd9c7cd2b1cf65.jpg",
+      "ensemble_probability": 0.2571865916252136,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.2571865916252136
+    },
+    {
+      "image": "0a0ae1be0d7cfd350149.jpg",
+      "ensemble_probability": 0.9598324298858643,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9598324298858643
+    },
+    {
+      "image": "0a0f4e2d146c853ca7cd.jpg",
+      "ensemble_probability": 0.9995249509811401,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9995249509811401
+    },
+    {
+      "image": "0a1535813a40de74a171.jpg",
+      "ensemble_probability": 0.7479562759399414,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7479562759399414
+    },
+    {
+      "image": "0a201dd383a17c4c373f.jpg",
+      "ensemble_probability": 0.10943038761615753,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.10943038761615753
+    },
+    {
+      "image": "0a24079f3c373bfadd62.jpg",
+      "ensemble_probability": 0.3921905755996704,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3921905755996704
+    },
+    {
+      "image": "0a28d28fe71e5d24fa8c.jpg",
+      "ensemble_probability": 0.0292788278311491,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0292788278311491
+    },
+    {
+      "image": "0a2c9183523b93e1126d.jpg",
+      "ensemble_probability": 0.06774110347032547,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.06774110347032547
+    },
+    {
+      "image": "0a33390fb3e60df2dda7.jpg",
+      "ensemble_probability": 1.0,
+      "ensemble_label": 1,
+      "efficientnet_probability": 1.0
+    },
+    {
+      "image": "0a34eccdff0efcd9330c.jpg",
+      "ensemble_probability": 0.9998010993003845,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998010993003845
+    },
+    {
+      "image": "0a3b79ed4934508f227b.jpg",
+      "ensemble_probability": 0.6474858522415161,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6474858522415161
+    },
+    {
+      "image": "0a436d8a18463bdcb881.jpg",
+      "ensemble_probability": 0.9992120265960693,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9992120265960693
+    },
+    {
+      "image": "0a43ce86f5ac404c91e8.jpg",
+      "ensemble_probability": 0.9013402462005615,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9013402462005615
+    },
+    {
+      "image": "0a48bd4d2760e5a4bc4d.jpg",
+      "ensemble_probability": 0.6090564727783203,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6090564727783203
+    },
+    {
+      "image": "0a49ae1eecc4c01d2d1b.jpg",
+      "ensemble_probability": 0.0019742457661777735,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0019742457661777735
+    },
+    {
+      "image": "0a4a4b28a290b57fb7f0.jpg",
+      "ensemble_probability": 0.881043553352356,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.881043553352356
+    },
+    {
+      "image": "0a552316f5dc11e72b3e.jpg",
+      "ensemble_probability": 0.9633153676986694,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9633153676986694
+    },
+    {
+      "image": "0a564050c98b74ab4601.jpg",
+      "ensemble_probability": 0.9976255297660828,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9976255297660828
+    },
+    {
+      "image": "0a564f4bf0952222ac98.jpg",
+      "ensemble_probability": 0.20023028552532196,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.20023028552532196
+    },
+    {
+      "image": "0a582baf268cb2341eb3.jpg",
+      "ensemble_probability": 0.27454498410224915,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.27454498410224915
+    },
+    {
+      "image": "0a59d985999afa46a611.jpg",
+      "ensemble_probability": 0.016190897673368454,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.016190897673368454
+    },
+    {
+      "image": "0a5d94b3c9366c3ecacc.jpg",
+      "ensemble_probability": 0.9997206330299377,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997206330299377
+    },
+    {
+      "image": "0a639831474feba9e63d.jpg",
+      "ensemble_probability": 0.49974989891052246,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.49974989891052246
+    },
+    {
+      "image": "0a664082ce39b2ae56d7.jpg",
+      "ensemble_probability": 0.0026913098990917206,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0026913098990917206
+    },
+    {
+      "image": "0a694e679ee49bc331c8.jpg",
+      "ensemble_probability": 0.9909538626670837,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9909538626670837
+    },
+    {
+      "image": "0a6da5eac80364f5904b.jpg",
+      "ensemble_probability": 0.9999898672103882,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999898672103882
+    },
+    {
+      "image": "0a8d184b3faae4d2e86c.jpg",
+      "ensemble_probability": 0.007464676629751921,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.007464676629751921
+    },
+    {
+      "image": "0a91253f148282013724.jpg",
+      "ensemble_probability": 0.9553995728492737,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9553995728492737
+    },
+    {
+      "image": "0a942c447edc650abbd4.jpg",
+      "ensemble_probability": 0.9986176490783691,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9986176490783691
+    },
+    {
+      "image": "0a9fbddbc7c31c979502.jpg",
+      "ensemble_probability": 0.8443481922149658,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8443481922149658
+    },
+    {
+      "image": "0aa06598d7d1a2a22f15.jpg",
+      "ensemble_probability": 0.9995511174201965,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9995511174201965
+    },
+    {
+      "image": "0aa14967fe98e0aaf9ac.jpg",
+      "ensemble_probability": 0.9647306799888611,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9647306799888611
+    },
+    {
+      "image": "0aa17fa289329ea0f6be.jpg",
+      "ensemble_probability": 0.9980021119117737,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9980021119117737
+    },
+    {
+      "image": "0aa7a16a66366fb7d505.jpg",
+      "ensemble_probability": 0.07060334086418152,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.07060334086418152
+    },
+    {
+      "image": "0aa99329520c9757f27d.jpg",
+      "ensemble_probability": 0.8247709274291992,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8247709274291992
+    },
+    {
+      "image": "0aaf54a6651ccd8de48b.jpg",
+      "ensemble_probability": 0.9970797896385193,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9970797896385193
+    },
+    {
+      "image": "0abb111dc9d4204ae8e7.jpg",
+      "ensemble_probability": 0.8056336641311646,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.8056336641311646
+    },
+    {
+      "image": "0abd39f186d6eabf8a15.jpg",
+      "ensemble_probability": 0.039171867072582245,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.039171867072582245
+    },
+    {
+      "image": "0abdf6423914a114b55c.jpg",
+      "ensemble_probability": 0.37185490131378174,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.37185490131378174
+    },
+    {
+      "image": "0acdda9ec8bffc07c412.jpg",
+      "ensemble_probability": 0.9997896552085876,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997896552085876
+    },
+    {
+      "image": "0acf0175ac1b06867d99.jpg",
+      "ensemble_probability": 0.9972723126411438,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9972723126411438
+    },
+    {
+      "image": "0ae68b26fe15aff09f3e.jpg",
+      "ensemble_probability": 0.9999957084655762,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999957084655762
+    },
+    {
+      "image": "0aef745a17387d023ff4.jpg",
+      "ensemble_probability": 0.9553253650665283,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9553253650665283
+    },
+    {
+      "image": "0af042d4286a571f446b.jpg",
+      "ensemble_probability": 0.28012514114379883,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.28012514114379883
+    },
+    {
+      "image": "0af066aa5354ad398a77.jpg",
+      "ensemble_probability": 0.9985098242759705,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9985098242759705
+    },
+    {
+      "image": "0af1121abb5bbaa2577d.jpg",
+      "ensemble_probability": 0.9704484939575195,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9704484939575195
+    },
+    {
+      "image": "0b0940b93766f45fee88.jpg",
+      "ensemble_probability": 0.40690967440605164,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.40690967440605164
+    },
+    {
+      "image": "0b0b683bb9a8846e9dbd.jpg",
+      "ensemble_probability": 0.6822867393493652,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.6822867393493652
+    },
+    {
+      "image": "0b16d6fa63eb6bfd6697.jpg",
+      "ensemble_probability": 0.0037120976485311985,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0037120976485311985
+    },
+    {
+      "image": "0b1c9104d19e8fae85ad.jpg",
+      "ensemble_probability": 0.1747792661190033,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.1747792661190033
+    },
+    {
+      "image": "0b2b2edba188140d0de7.jpg",
+      "ensemble_probability": 0.029509251937270164,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.029509251937270164
+    },
+    {
+      "image": "0b2b79cbe564b7ce03e5.jpg",
+      "ensemble_probability": 0.3853694498538971,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3853694498538971
+    },
+    {
+      "image": "0b326f92139211ee4e6b.jpg",
+      "ensemble_probability": 0.19872453808784485,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.19872453808784485
+    },
+    {
+      "image": "0b34b4f583cb5e1cef84.jpg",
+      "ensemble_probability": 0.989310622215271,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.989310622215271
+    },
+    {
+      "image": "0b3a9d282d072d6b2cce.jpg",
+      "ensemble_probability": 0.999825656414032,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.999825656414032
+    },
+    {
+      "image": "0b402bdade77381f85f1.jpg",
+      "ensemble_probability": 0.999840259552002,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.999840259552002
+    },
+    {
+      "image": "0b54d5946a25289996b5.jpg",
+      "ensemble_probability": 0.9995157718658447,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9995157718658447
+    },
+    {
+      "image": "0b57f6c06d0782893f03.jpg",
+      "ensemble_probability": 0.998578667640686,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.998578667640686
+    },
+    {
+      "image": "0b5a57d10ab73f45c404.jpg",
+      "ensemble_probability": 0.4341661334037781,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4341661334037781
+    },
+    {
+      "image": "0b65fdc7cad5bf9a583d.jpg",
+      "ensemble_probability": 0.9998072981834412,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998072981834412
+    },
+    {
+      "image": "0b66d99f17a786d2d96d.jpg",
+      "ensemble_probability": 0.9704967737197876,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9704967737197876
+    },
+    {
+      "image": "0b67538faffd979ccd1b.jpg",
+      "ensemble_probability": 0.9841092228889465,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9841092228889465
+    },
+    {
+      "image": "0b74695398e0fb5c82e1.jpg",
+      "ensemble_probability": 0.611407458782196,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.611407458782196
+    },
+    {
+      "image": "0b7534f12f07d70c9f18.jpg",
+      "ensemble_probability": 0.9738165736198425,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9738165736198425
+    },
+    {
+      "image": "0b7b6578e8b6858a974e.jpg",
+      "ensemble_probability": 0.5965455174446106,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5965455174446106
+    },
+    {
+      "image": "0b81414f0d88a1a3312d.jpg",
+      "ensemble_probability": 0.9959841966629028,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9959841966629028
+    },
+    {
+      "image": "0b831dcc11e87f1ec19d.jpg",
+      "ensemble_probability": 0.13405072689056396,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.13405072689056396
+    },
+    {
+      "image": "0b85f826c340ab8fd0e8.jpg",
+      "ensemble_probability": 0.4295969307422638,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4295969307422638
+    },
+    {
+      "image": "0b8d6c80fdc889d0355f.jpg",
+      "ensemble_probability": 0.9999516010284424,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999516010284424
+    },
+    {
+      "image": "0b8dd526a4e5431d1117.jpg",
+      "ensemble_probability": 0.9998987913131714,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998987913131714
+    },
+    {
+      "image": "0b8e561c4388e5d3f940.jpg",
+      "ensemble_probability": 0.4423331618309021,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4423331618309021
+    },
+    {
+      "image": "0b9094813d495bf36329.jpg",
+      "ensemble_probability": 0.20464535057544708,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.20464535057544708
+    },
+    {
+      "image": "0ba380df9395d2c5178b.jpg",
+      "ensemble_probability": 0.9977582693099976,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9977582693099976
+    },
+    {
+      "image": "0ba4bcd711167c75d1a0.jpg",
+      "ensemble_probability": 0.9999679327011108,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999679327011108
+    },
+    {
+      "image": "0bae6b6a92ec358b6292.jpg",
+      "ensemble_probability": 0.01482308842241764,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.01482308842241764
+    },
+    {
+      "image": "0bb4b20835303a0052fe.jpg",
+      "ensemble_probability": 0.9998223185539246,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998223185539246
+    },
+    {
+      "image": "0bc4edde17284b11c20b.jpg",
+      "ensemble_probability": 0.01639653369784355,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.01639653369784355
+    },
+    {
+      "image": "0bc5d23e4f3675a85961.jpg",
+      "ensemble_probability": 0.7142733335494995,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7142733335494995
+    },
+    {
+      "image": "0bc658fdfe519808c82e.jpg",
+      "ensemble_probability": 0.5757102370262146,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5757102370262146
+    },
+    {
+      "image": "0bcaacb7f2626b9892d7.jpg",
+      "ensemble_probability": 0.016091560944914818,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.016091560944914818
+    },
+    {
+      "image": "0bd3015fb09614c21b31.jpg",
+      "ensemble_probability": 0.30653640627861023,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.30653640627861023
+    },
+    {
+      "image": "0bdb6d4917f25dfe6b56.jpg",
+      "ensemble_probability": 0.1585284024477005,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.1585284024477005
+    },
+    {
+      "image": "0beb4960f908d9bea4e1.jpg",
+      "ensemble_probability": 0.9997410178184509,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997410178184509
+    },
+    {
+      "image": "0bef7204eddb9aa585cd.jpg",
+      "ensemble_probability": 0.9957752823829651,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9957752823829651
+    },
+    {
+      "image": "0bfb0e818806a9d984e4.jpg",
+      "ensemble_probability": 0.9997273087501526,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9997273087501526
+    },
+    {
+      "image": "0bfd2626041577cd7e66.jpg",
+      "ensemble_probability": 0.9999837875366211,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9999837875366211
+    },
+    {
+      "image": "0c13e631068fae39bbed.jpg",
+      "ensemble_probability": 0.9175829887390137,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9175829887390137
+    },
+    {
+      "image": "0c17b4f2eb42b0a32b48.jpg",
+      "ensemble_probability": 0.345425009727478,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.345425009727478
+    },
+    {
+      "image": "0c1a2363b39d46465032.jpg",
+      "ensemble_probability": 0.004962930455803871,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.004962930455803871
+    },
+    {
+      "image": "0c2b21a6866b6bede2d2.jpg",
+      "ensemble_probability": 0.3703836500644684,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3703836500644684
+    },
+    {
+      "image": "0c2e17bf8cbe586ff962.jpg",
+      "ensemble_probability": 0.9892868995666504,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9892868995666504
+    },
+    {
+      "image": "0c451899d93374882bb0.jpg",
+      "ensemble_probability": 0.9982126951217651,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9982126951217651
+    },
+    {
+      "image": "0c57022fec9de614d165.jpg",
+      "ensemble_probability": 0.9998286962509155,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9998286962509155
+    },
+    {
+      "image": "0c585ea3c5e7d33b5b1d.jpg",
+      "ensemble_probability": 0.21507932245731354,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.21507932245731354
+    },
+    {
+      "image": "0c642f766c052892c1f0.jpg",
+      "ensemble_probability": 0.07759471982717514,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.07759471982717514
+    },
+    {
+      "image": "0c6503a776d827ffd01a.jpg",
+      "ensemble_probability": 0.9928286671638489,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9928286671638489
+    },
+    {
+      "image": "0c67e595a69f796b7a22.jpg",
+      "ensemble_probability": 0.972140908241272,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.972140908241272
+    },
+    {
+      "image": "0c68b33422a22a38c7a8.jpg",
+      "ensemble_probability": 0.5337404012680054,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5337404012680054
+    },
+    {
+      "image": "0c6d15b05a1013faabee.jpg",
+      "ensemble_probability": 0.015702543780207634,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.015702543780207634
+    },
+    {
+      "image": "0c7ea3ddb11b41a2727f.jpg",
+      "ensemble_probability": 0.9662324786186218,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9662324786186218
+    },
+    {
+      "image": "0c8230b8178543ba7a78.jpg",
+      "ensemble_probability": 0.9933466911315918,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9933466911315918
+    },
+    {
+      "image": "0c8563ed8b70ede1bac8.jpg",
+      "ensemble_probability": 0.9961799383163452,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9961799383163452
+    },
+    {
+      "image": "0c882b89f1456ec8d39c.jpg",
+      "ensemble_probability": 0.993119478225708,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.993119478225708
+    },
+    {
+      "image": "0c899d41d7d908a974bc.jpg",
+      "ensemble_probability": 1.0,
+      "ensemble_label": 1,
+      "efficientnet_probability": 1.0
+    },
+    {
+      "image": "0c8b542a1a41cff69ea5.jpg",
+      "ensemble_probability": 0.3896043598651886,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.3896043598651886
+    },
+    {
+      "image": "0c8ba25b8d35770efad9.jpg",
+      "ensemble_probability": 0.7241076827049255,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.7241076827049255
+    },
+    {
+      "image": "0c9014c65e597e47888e.jpg",
+      "ensemble_probability": 0.04942980408668518,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.04942980408668518
+    },
+    {
+      "image": "0c90df3de18914a83fe4.jpg",
+      "ensemble_probability": 0.5502352118492126,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.5502352118492126
+    },
+    {
+      "image": "0c91dfe329f94c420538.jpg",
+      "ensemble_probability": 0.4448951184749603,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.4448951184749603
+    },
+    {
+      "image": "0c9b201816cd39b95d38.jpg",
+      "ensemble_probability": 0.0072380248457193375,
+      "ensemble_label": 0,
+      "efficientnet_probability": 0.0072380248457193375
+    },
+    {
+      "image": "0ca4d84f1b79b26bfd36.jpg",
+      "ensemble_probability": 0.9991550445556641,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9991550445556641
+    },
+    {
+      "image": "0ca85e16cbca1da5753d.jpg",
+      "ensemble_probability": 0.9979973435401917,
+      "ensemble_label": 1,
+      "efficientnet_probability": 0.9979973435401917
+    }
+  ],
+  "metrics": {}
+}

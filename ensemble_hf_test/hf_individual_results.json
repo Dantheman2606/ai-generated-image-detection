@@ -1,0 +1,21 @@
+{
+    "dataset": "Hemg/AI-Generated-vs-Real-Images-Datasets",
+    "evaluation_size": 2000,
+    "models": {
+        "EfficientNetB4": {
+            "accuracy": 0.783,
+            "roc_auc": 0.9468736967694384,
+            "f1_score": 0.8224222585924713
+        },
+        "F3Net": {
+            "accuracy": 0.535,
+            "roc_auc": 0.8552687767709184,
+            "f1_score": 0.6843177189409368
+        },
+        "DINOv2": {
+            "accuracy": 0.845,
+            "roc_auc": 0.9453405725863795,
+            "f1_score": 0.8642732049036778
+        }
+    }
+}
